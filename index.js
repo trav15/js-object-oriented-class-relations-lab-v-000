@@ -1,7 +1,5 @@
-class Driver(name){
-  let driverID = 0;
-  constructor(name){
-    this.name = name;
-    this.id = ++driverID;
-  }
-}
+let store = { drivers: [], passengers: [], trips: [] };
+
+let driverId = 0;
+let passengerId = 0;
+let tripId = 0;
