@@ -1,7 +1,7 @@
 class Driver(name){
-  let driverID = 0
+  let driverID = 0;
   constructor(name){
-    this.name = name
-    this.id = ++driverID
+    this.name = name;
+    this.id = ++driverID;
   }
 }
